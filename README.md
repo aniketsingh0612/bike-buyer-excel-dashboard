@@ -24,7 +24,7 @@ The analysis includes data cleaning, Pivot Table analysis, and dashboard develop
 
 <div align="center">
 
-<img src="screenshots/dashboard-preview.png" alt="Bike Buyer Excel Dashboard" width="900">
+<img src="screenshots/dashboard_preview.png" alt="Bike Buyer Excel Dashboard" width="900">
 
 </div>
 
