@@ -3,142 +3,91 @@
 # Bike Buyer Excel Dashboard
 
 <p>
-  <strong>Excel Data Analysis • Pivot Tables • Dashboard Design</strong>
+  <strong>Customer Purchase Analysis & Interactive Excel Dashboard</strong>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Microsoft Excel"/>
-  <img src="https://img.shields.io/badge/Data%20Analysis-1F6FEB?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Data Analysis"/>
-  <img src="https://img.shields.io/badge/Dashboard-FFB000?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Dashboard"/>
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white" alt="Microsoft Excel">
+  <img src="https://img.shields.io/badge/Pivot%20Tables-Data%20Analysis-2F75B5?style=flat-square" alt="Pivot Tables">
+  <img src="https://img.shields.io/badge/Data%20Visualization-Dashboard-555555?style=flat-square" alt="Data Visualization">
 </p>
 
 </div>
 
 ---
-
-<div align="center">
 
 ## Project Overview
 
-</div>
+This project analyzes bike buyer data to understand customer characteristics and purchasing patterns using Microsoft Excel.
 
-<p align="center">
-An Excel dashboard project built to analyze bike buyer data and identify
-customer trends and purchasing patterns. The project covers data cleaning,
-pivot table analysis, and dashboard creation using Microsoft Excel.
-</p>
+The analysis includes data cleaning, Pivot Table analysis, and dashboard development. The final dashboard brings the key findings together in an interactive and easy-to-read format.
+
+<div align="center">
+
+<img src="screenshots/dashboard-preview.png" alt="Bike Buyer Excel Dashboard" width="900">
+
+</div>
 
 ---
 
-<div align="center">
+## Analysis
+
+The dashboard examines bike purchase behavior across different customer characteristics, including:
+
+- Customer demographics
+- Age groups
+- Income
+- Commute distance
+- Bike purchase patterns
+
+The analysis was structured to turn the raw customer dataset into meaningful summaries and visual insights.
+
+---
 
 ## Workbook Structure
 
-</div>
-
-<table align="center">
-<tr>
-<th>Sheet</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><b>Raw_Data</b></td>
-<td>Original dataset</td>
-</tr>
-<tr>
-<td><b>Cleaned_Data</b></td>
-<td>Cleaned and prepared dataset used for analysis</td>
-</tr>
-<tr>
-<td><b>Pivot_Analysis</b></td>
-<td>Pivot tables and supporting analysis</td>
-</tr>
-<tr>
-<td><b>Dashboard</b></td>
-<td>Final dashboard with charts and key insights</td>
-</tr>
-</table>
+| Sheet | Description |
+|---|---|
+| `Raw_Data` | Original dataset |
+| `Cleaned_Data` | Cleaned and prepared data used for analysis |
+| `Pivot_Analysis` | Pivot Tables and supporting analysis |
+| `Dashboard` | Final dashboard and visual analysis |
 
 ---
-
-<div align="center">
 
 ## Tools & Skills
 
-<p>
-Microsoft Excel &nbsp; • &nbsp;
-Data Cleaning &nbsp; • &nbsp;
-Pivot Tables &nbsp; • &nbsp;
-Data Analysis &nbsp; • &nbsp;
-Dashboard Design &nbsp; • &nbsp;
-Data Visualization
-</p>
+<div align="center">
+
+**Microsoft Excel** &nbsp; • &nbsp;
+**Data Cleaning** &nbsp; • &nbsp;
+**Pivot Tables** &nbsp; • &nbsp;
+**Data Analysis** &nbsp; • &nbsp;
+**Data Visualization** &nbsp; • &nbsp;
+**Dashboard Design**
 
 </div>
 
 ---
 
-<div align="center">
+## Project Timeline
 
-## Key Analysis
+**Completed:** 2025
 
-</div>
-
-<p align="center">
-The dashboard provides a clear view of bike purchase patterns across different
-customer characteristics and helps identify trends within the dataset.
-</p>
+This project was completed as part of my earlier data analysis work and was subsequently organized and published to GitHub as part of my portfolio.
 
 ---
 
-<div align="center">
+## Repository Structure
 
-## Excel Dashboard Workflow
-
-<table>
-<tr>
-<td align="center">
-
-<b>01</b><br>
-Data Cleaning
-
-</td>
-<td>→</td>
-<td align="center">
-
-<b>02</b><br>
-Pivot Analysis
-
-</td>
-<td>→</td>
-<td align="center">
-
-<b>03</b><br>
-Dashboard
-
-</td>
-<td>→</td>
-<td align="center">
-
-<b>04</b><br>
-Insights
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-### Built with
-
-<img src="https://img.icons8.com/color/96/microsoft-excel-2019.png" width="55" alt="Microsoft Excel"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/96/combo-chart--v1.png" width="55" alt="Data Visualization"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://img.icons8.com/color/96/combo-chart--v2.png" width="55" alt="Charts"/>
-
-</div>
+```text
+bike-buyer-excel-dashboard/
+│
+├── data/
+│   └── bike_buyer_analysis.xlsx
+│
+├── screenshots/
+│   └── dashboard-preview.png
+│
+├── .gitignore
+└── README.md
